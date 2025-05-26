@@ -1,0 +1,31 @@
+body {
+    background-color: #fff0f5;
+    font-family: 'Comic Sans MS', cursive;
+    text-align: center;
+    padding: 50px;
+}
+header h1 {
+    color: #d63384;
+}
+nav a {
+    padding: 10px 20px;
+    background: #ffccdd;
+    margin: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #000;
+}
+nav a:hover {
+    background: #ffc0cb;
+}
+#personalizar {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 25%;
+    background: rgba(255, 248, 251, 0.95);
+    border-left: 2px solid #ffb6c1;
+    padding: 20px;
+    height: 100%;
+    overflow-y: auto;
+}
